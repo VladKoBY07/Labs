@@ -13,7 +13,7 @@ int main()
         s=s+n;
         p=p*n;
     }
-    cout<<"Summ: "<<s<<endl;
-    cout<<"Proiz: "<<p<<endl;
+    cout<<"Сумма: "<<s<<endl;
+    cout<<"Произведение: "<<p<<endl;
     return 0;
 }
