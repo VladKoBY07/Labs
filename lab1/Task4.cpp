@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int k, f, i;
-    cin>>k;
+    std::cin>>k;
     f=1;
     if(k%2) i=1;
     else    i=2;
@@ -14,6 +12,6 @@ int main()
     {
     f=f*i;
     }
-    cout<<"Факториал: "<<f<<endl;
+    std::cout<<"Факториал: "<<f<<std::endl;
     return 0;
 }

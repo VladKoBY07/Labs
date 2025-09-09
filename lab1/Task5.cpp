@@ -1,17 +1,15 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     unsigned int n, m, i;
-    cin>>n>>m;
-    cout<<"Общие делители:"<<endl;
+    std::cin>>n>>m;
+    std::cout<<"Общие делители:"<<std::endl;
     for(i=1;i<=n;i++)
     {
         if((!(n%i))&&(!(m%i)))
         {
-            cout<<i<<endl;
+            std::cout<<i<<std::endl;
         }
     }
     return 0;

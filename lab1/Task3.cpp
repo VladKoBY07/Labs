@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int n, s, p, i;
-    cin>>n;
+    std::cin>>n;
     s=0;
     for(n;n>=1;n--)
     {
@@ -16,6 +14,6 @@ int main()
         }
         s=s+p;
     }
-    cout<<"Сумма: "<<s<<endl;
+    std::cout<<"Сумма: "<<s<<std::endl;
     return 0;
 }
